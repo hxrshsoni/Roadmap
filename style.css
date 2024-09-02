@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
+    background-color: aqua;
+    height: 50px;
+    padding: 20px 12px;
+    gap: 82px;
+    width: 100%;
+}
+
+#nav li {
+    list-style: none;
+    font-size: 19px;
+}
+
+#nav li:hover {
+    cursor: pointer;
+}
+
+
+#pg1 {
+
+    background-color: rgb(67, 236, 34);
+
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#pg1 h1 {
+    font-size: 192px;
+    font-weight: 200;
+}
+
+#pg1 p {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#pg2 {
+
+    /* background-color: rgb(227, 0, 113); */
+    background: url(./IMg/2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#pg2 h1 {
+    font-size: 192px;
+    font-weight: 200;
+}
+
+#pg2 p {
+    font-size: 25px;
+    padding: 28px 108px;
+    /* text-align: center; */
+    text-shadow: 2px 2px 2px yellow;
+}
+
+#pg3 {
+    color: yellow;
+    background-color: rgb(15, 15, 57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#cards {
+
+
+    display: flex;
+
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    gap: 138px;
+
+}
+
+.card {
+    height: 25%;
+    width: 138px;
+    padding: 22px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#card1 {
+    border: 2px solid rgb(255, 255, 0);
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+#card2 {
+    border: 2px solid rgb(255, 255, 0);
+
+
+}
+
+#card3 {
+    border: 2px solid rgb(255, 255, 0);
+
+
+}
+
+#card4 {
+    border: 2px solid rgb(255, 255, 0);
+
+
+}
+
+
+#card1 img {
+    max-width: 100%;
+    height: 92px;
+}
+
+#card2 img {
+
+    max-width: 100%;
+
+    height: 92px;
+}
+
+
+#card3 img {
+
+    max-width: 100%;
+    height: 92px;
+}
+
+
+#card4 img {
+    max-width: 100%;
+    height: 92px;
+}
+
+
+
+.card a {
+
+    color: yellow;
+    background-color: aqua;
+    border-radius: 100%;
+
+
+}

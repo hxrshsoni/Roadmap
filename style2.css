@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chartreuse;
+    height:  158px;
+    font-size: 28px;
+    
+}
+
+#pg1{
+    background-color: rgb(10, 224, 239);
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+#pg1 h1{
+         font-size: 65px;
+         font-weight: 300;
+         padding-bottom: 133px;
+}
+
+#pg1 p{
+         font-size: 23px;
+         
+}
+
+#pg2{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(255, 227, 126); */
+    background: url(./IMg/code.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+
+#js{
+    /* border: 2px solid red; */
+    display: inline-block;
+    padding: 52px;
+    margin: 76px;
+    width: 50%;
+    
+}
+
+#js h1{
+    font-size: 65px;
+    font-weight: 250;
+    /* text-shadow: 1px 1px 1px yellow; */
+    color: yellow;
+}
+#js p{
+    font-size: 25px;
+    font-weight: 100;
+    /* text-shadow: 1px 1px 1px yellow; */
+    color: yellow;
+}
+
+#cards{
+   
+    /* background-color: rgb(255, 227, 126); */
+    height: 50vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#card{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(200, 255, 0);
+    margin: 90px;
+    margin-bottom: 211px;
+    padding: 55px;
+
+}
+
+#pg3{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+#pg3 h1{
+    font-size: 85px;
+   
+}
+#pg3 p{
+    padding-top: 5px;
+    /* line-height: 36px; */
+}
+
+#webdev{
+
+    /* border: 2px solid red; */
+    display: inline-block;
+    padding: 52px;
+    margin: 76px;
+    width: 50%;
+
+}
+
+#cards3{
+    height: 42vh;
+    background-color: aqua;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card3{
+
+    height: 195px;
+    width: 455px;
+    border: 2px solid black;
+    margin: 90px;
+    margin-bottom: 211px;
+    padding: 55px;
+    background: url(./IMg/camp.png);
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+
+
+#pg4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    color: white;
+    
+}
+
+#pg4 h1{
+    font-size: 62px;
+    font-weight: 200;
+}
+#pg4 p{
+    margin-top: 62px;
+}
+
+#pg5{
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(19, 255, 19);
+}
+
+#rct{
+
+    /* border: 2px solid red; */
+    display: inline-block;
+    padding: 52px;
+    margin: 76px;
+    width: 50%;
+
+}
+
+#rct h1{
+    font-size: 84px;
+}
+
+#rct p{
+    padding-top: 23px;
+    
+}
+
+h2{
+    text-align: center;
+    font-weight: 450;
+    font-size: 48px;
+}
+
+#card5{
+
+
+    height: 120px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 90px;
+    margin-bottom: 211px;
+    padding: 55px;
+    background: url(./IMg/rct.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all ease-in 0.3s;
+    
+}
+
+
+#card6{
+    
+    height: 120px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 90px;
+    margin-bottom: 211px;
+    padding: 55px;
+    background: url(./IMg/camp.png);
+    background-position: center;
+    background-size: cover;
+    transition: all ease-in 0.3s;
+    
+}
+
+
+
+#cards5{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin: 182px;
+    gap: 55px;
+    /* flex-direction: column; */
+  
+    
+}
+#card5:hover, #card6:hover{
+    transform: scale(1.06);
+}
+
+
+
+
+
